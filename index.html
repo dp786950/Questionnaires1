@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5141c9">
+<title>Strategic Management Practices & Organizational Performance | Questionnaire</title>
+<style>
+:root{--ink:#24243b;--muted:#70758c;--purple:#5b4bdb;--blue:#2f9bf0;--mint:#36c6a3;--pink:#ee70ad;--gold:#f3bf51;--line:#e6e8f2;--bg:#f5f6ff;--shadow:0 14px 38px #28275d12}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#f4f1ff,#eef8ff 55%,#fff4f8);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.5}.topline{height:7px;background:linear-gradient(90deg,var(--purple),var(--blue),var(--mint),var(--gold),var(--pink))}
+.shell{width:min(1120px,calc(100% - 28px));margin:26px auto 55px}.brandbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.brand{display:flex;gap:11px;align-items:center;font-weight:850;letter-spacing:-.03em}.logo{width:42px;height:42px;display:grid;place-items:center;color:white;font-size:20px;border-radius:14px;background:linear-gradient(140deg,var(--purple),var(--blue));box-shadow:0 8px 20px #5b4bdb35}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:.14em;text-transform:uppercase}.chip{font-size:12px;padding:8px 12px;border:1px solid #d0f1e5;background:#e9fbf4;color:#287b63;border-radius:50px;white-space:nowrap}
+.hero{padding:clamp(25px,5vw,48px);border-radius:26px;position:relative;overflow:hidden;color:white;background:linear-gradient(115deg,#4334bd,#6253e4 53%,#278edb);box-shadow:var(--shadow)}.hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff28;border-radius:50%;pointer-events:none}.hero:before{width:330px;height:330px;right:-80px;top:-160px;background:#ffffff12}.hero:after{width:230px;height:230px;right:110px;bottom:-180px;background:#ffd16622}.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;opacity:.8}.hero h1{font-size:clamp(29px,4.7vw,45px);letter-spacing:-.045em;line-height:1.1;max-width:830px;margin:13px 0}.hero p{max-width:820px;color:#f1efff;font-size:14px;line-height:1.8;margin:0}.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;position:relative;z-index:1}.hero-tags span{padding:7px 11px;background:#ffffff19;border:1px solid #ffffff35;border-radius:50px;font-size:11px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 265px;gap:18px;margin-top:18px;align-items:start}.main{min-width:0}.card,.sidecard{background:#ffffffed;border:1px solid #ffffff;border-radius:19px;box-shadow:var(--shadow)}.card{padding:clamp(19px,3vw,28px);margin-bottom:16px}.sectionhead{display:flex;align-items:flex-start;gap:12px;margin-bottom:20px}.num{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:13px;background:#efedff;color:var(--purple);font-weight:850}.sectionhead h2{font-size:18px;letter-spacing:-.02em;margin:1px 0 4px}.sectionhead p{font-size:12px;color:var(--muted);margin:0;line-height:1.6}.fieldgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.field.full{grid-column:1/-1}label,.label{font-size:13px;font-weight:750;display:block;margin-bottom:7px}.req{color:#e84f86}input[type=text],select,textarea{width:100%;border:1px solid #dfe2f0;background:#fbfcff;border-radius:11px;padding:12px 13px;font:inherit;font-size:13px;color:var(--ink);outline:none;transition:.2s}input:focus,select:focus,textarea:focus{border-color:#887cf0;box-shadow:0 0 0 4px #6254e71a;background:white}.hint{font-size:11px;color:var(--muted);margin-top:6px}.choices{display:flex;flex-wrap:wrap;gap:9px}.choice{position:relative}.choice input{position:absolute;opacity:0}.choice span{display:block;padding:10px 12px;background:#fbfcff;border:1px solid #e1e4f1;border-radius:10px;font-size:12px;cursor:pointer;transition:.15s}.choice input:checked+span{background:#efedff;border-color:#8276ef;color:#4e40cd;font-weight:750}.choice input:focus-visible+span{outline:3px solid #6254e755}
+.note{padding:13px 15px;border-radius:13px;background:#f2f1ff;border:1px solid #e1ddff;color:#5147a2;font-size:12px;line-height:1.7;margin-bottom:16px}.group-title{display:flex;align-items:center;gap:10px;margin:23px 0 12px}.group-title:first-of-type{margin-top:0}.group-title h3{font-size:15px;margin:0}.group-title .bar{height:3px;flex:1;border-radius:10px;background:linear-gradient(90deg,#6b5ce7,#39a9ed,#36c6a3)}.group-title .count{font-size:10px;color:var(--muted);background:#f1f2fa;padding:4px 8px;border-radius:20px}.likert{border:1px solid var(--line);border-radius:13px;overflow:hidden;margin-bottom:11px}.likert-text{padding:13px 14px;font-size:13px;font-weight:650;line-height:1.55;background:#fcfcff}.likert-text .qnum{display:inline-grid;place-items:center;width:24px;height:24px;margin-right:7px;background:#eeedff;color:#5143d2;border-radius:8px;font-size:11px;font-weight:850}.scale{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--line)}.scale label{margin:0;padding:10px 3px;text-align:center;font-size:10px;color:#646a82;border-right:1px solid var(--line);cursor:pointer;line-height:1.35}.scale label:last-child{border-right:0}.scale input{display:block;margin:0 auto 6px;accent-color:var(--purple);width:16px;height:16px}.scale label:has(input:checked){background:#efedff;color:#4f40ce;font-weight:800}.scale label:focus-within{outline:2px solid #8d82f2;outline-offset:-2px}textarea{min-height:90px;resize:vertical;line-height:1.65}.question-open{margin-bottom:16px}.question-open:last-child{margin-bottom:0}.privacy{background:#eafbf4;border:1px solid #d0f3e6;border-radius:13px;padding:14px;font-size:12px;color:#32745f;line-height:1.7}.consent{display:flex;gap:10px;align-items:flex-start;margin-top:15px}.consent input{margin-top:4px;accent-color:var(--purple);width:16px;height:16px;flex:0 0 auto}.consent label{font-weight:500;line-height:1.6;color:#51566f}.actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{border:0;border-radius:11px;padding:12px 16px;font:inherit;font-size:12px;font-weight:800;cursor:pointer;transition:.15s}.btn:hover{transform:translateY(-1px)}.primary{color:white;background:linear-gradient(100deg,var(--purple),var(--blue));box-shadow:0 7px 18px #6254e733}.secondary{background:#efedff;color:#5142d0}.plain{background:transparent;color:var(--muted)}.side{position:sticky;top:16px}.sidecard{padding:19px;margin-bottom:14px}.sidecard h3{font-size:13px;margin:0 0 13px}.progressmeta{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}.track{height:8px;border-radius:50px;background:#edeef7;overflow:hidden;margin:10px 0}.fill{width:0;height:100%;background:linear-gradient(90deg,var(--purple),var(--blue),var(--mint));transition:width .2s}.steps{list-style:none;padding:0;margin:0;display:grid;gap:12px}.steps li{display:flex;align-items:flex-start;gap:9px;color:var(--muted);font-size:11px;line-height:1.55}.stepno{width:24px;height:24px;flex:0 0 24px;display:grid;place-items:center;border-radius:8px;background:#efedff;color:var(--purple);font-weight:850}.success{display:none;margin-bottom:15px;padding:16px;border-radius:14px;background:#e9fbf3;color:#27765c;border:1px solid #c9f0e0;font-size:13px}.success strong{display:block;font-size:15px;margin-bottom:4px}.fineprint{font-size:10px;color:var(--muted);line-height:1.6;margin-top:14px}.footer{text-align:center;font-size:11px;color:#878ca2;margin-top:24px}.admin{margin-top:20px}.admin summary{text-align:center;color:#777e96;font-size:11px;cursor:pointer;padding:12px}.admincontent{display:none}.admin[open] .admincontent{display:block}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:11px}table{border-collapse:collapse;width:100%;font-size:11px;white-space:nowrap}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line)}th{background:#f1efff;color:#5041cc}.empty{font-size:12px;color:var(--muted);padding:15px}
+@media(max-width:830px){.layout{grid-template-columns:1fr}.side{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.sidecard{margin:0}.sidecard:last-child{grid-column:1/-1}}
+@media(max-width:560px){.shell{width:calc(100% - 18px);margin-top:14px}.brandbar{align-items:flex-start}.chip{font-size:10px;padding:7px 9px}.hero{border-radius:20px}.layout{gap:12px;margin-top:12px}.card{padding:17px;border-radius:16px;margin-bottom:12px}.fieldgrid{grid-template-columns:1fr;gap:13px}.field.full{grid-column:auto}.side{grid-template-columns:1fr}.sidecard:last-child{grid-column:auto}.scale label{font-size:9px;padding:9px 1px}.scale input{width:15px;height:15px}.actions{align-items:stretch}.actions .primary{width:100%;order:-1}.actions>div{display:flex;flex:1}.actions>div .btn{flex:1}.hero-tags span{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* RESPONDENT PROFILE SECTION */
+.respondent-profile {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 28px;
+    margin: 25px 0;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.respondent-profile .section-header {
+    margin-bottom: 25px;
+}
+
+.respondent-profile .section-header h2 {
+    font-size: 1.6rem;
+    margin: 12px 0 8px;
+}
+
+.respondent-profile .section-header p {
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    min-width: 0;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.optional {
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.form-group input,
+.form-group select {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #1f2937;
+    font: inherit;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+}
+
+.form-group input::placeholder {
+    color: #6b7280;
+}
+
+.privacy-note {
+    margin-top: 24px;
+    padding: 14px 16px;
+    border-left: 4px solid #6366f1;
+    border-radius: 8px;
+    background: rgba(99, 102, 241, 0.08);
+    font-size: 0.88rem;
+    line-height: 1.7;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 640px) {
+    .respondent-profile {
+        padding: 20px 16px;
+    }
+
+    .profile-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .form-group.full-width {
+        grid-column: auto;
+    }
+
+    .respondent-profile .section-header h2 {
+        font-size: 1.35rem;
+    }
+}
+/* RESEARCHER LOGIN DESIGN */
+.researcher-login {
+    max-width: 680px;
+    margin: 25px auto;
+    border: 1px solid #e1ddff;
+    background: linear-gradient(145deg, #ffffff, #f5f4ff);
+}
+
+.researcher-login .num {
+    font-size: 19px;
+}
+
+.password-row {
+    display: flex;
+    align-items: stretch;
+    gap: 9px;
+}
+
+.password-row input {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    border: 1px solid #dfe2f0;
+    background: #fbfcff;
+    border-radius: 11px;
+    padding: 12px 13px;
+    font: inherit;
+    font-size: 13px;
+    color: var(--ink);
+    outline: none;
+}
+
+.password-row input:focus {
+    border-color: var(--purple);
+    box-shadow: 0 0 0 4px #6254e71a;
+}
+
+.login-button {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.login-message {
+    color: #c62850;
+    font-size: 12px;
+    min-height: 18px;
+    margin: 9px 0 0;
+}
+
+#admin[hidden],
+#researcherLogin[hidden] {
+    display: none !important;
+}
+
+#admin summary {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .password-row {
+        flex-wrap: wrap;
+    }
+
+    .password-row input {
+        flex-basis: 100%;
+    }
+}
+
+
+</style>
+</head>
+<body><div class="topline"></div><div class="shell">
+<header class="brandbar"><div class="brand"><div class="logo">✦</div><div>RESEARCH PULSE<small>Academic questionnaire</small></div></div><span class="chip">● Respondent survey</span></header>
+<section class="hero"><div class="eyebrow">Academic research · Accra, Ghana</div><h1>Strategic Management Practices and Organizational Performance</h1><p><strong>A study of selected market research firms in Accra</strong></p><p style="margin-top:10px">Dear Respondent, we are conducting an academic study on strategic management practices and organizational performance among selected market research firms in Accra. Participation is voluntary. Responses will be used for academic purposes and reported in aggregate where possible. Please do not include confidential company information or personal identifiers. You may skip any question you do not wish to answer.</p><div class="hero-tags"><span>◷ Approximately 8–12 minutes</span><span>▤ 3 questionnaire sections</span><span>✓ Voluntary participation</span></div></section>
+<div class="layout"><main class="main">
+<form id="survey">
+<section class="card"><div class="sectionhead"><div class="num">01</div><div><h2>Consent to participate</h2><p>Please confirm your choice before proceeding.</p></div></div><div class="privacy">Your participation is voluntary. Responses are for academic purposes and will be reported in aggregate where possible. Do not provide confidential company information or personal identifiers. You may skip any question you do not wish to answer.</div><div style="margin-top:17px"><span class="label">I have read the information above and voluntarily agree to participate. <span class="req">*</span></span><div class="choices"><label class="choice"><input type="radio" name="consent" value="Yes" required><span>Yes, I agree</span></label><label class="choice"><input type="radio" name="consent" value="No" required><span>No, I do not agree</span></label></div></div></section>
+<section class="card"><div class="sectionhead"><div class="num">A</div><div><h2>Section A: Respondent and Firm Profile</h2><p>Select the option that best describes you and your firm. Questions may be skipped if you prefer not to answer.</p></div></div>
+
+<!-- RESPONDENT PROFILE SECTION -->
+<section class="questionnaire-section respondent-profile" id="respondent-profile">
+    <div class="section-header">
+        <span class="section-badge">PROFILE</span>
+        <h2>Respondent Profile</h2>
+        <p>
+            Please provide the following information about yourself
+            and your organization. Your responses will be used for
+            academic research purposes.
+        </p>
+    </div>
+
+    <div class="profile-grid">
+
+        <!-- Full Name -->
+        <div class="form-group">
+            <label for="respondentName">
+                Full Name <span class="optional">(Optional)</span>
+            </label>
+            <input
+                type="text"
+                id="respondentName"
+                name="respondentName"
+                placeholder="Enter your full name"
+                autocomplete="name"
+            >
+        </div>
+
+        <!-- Gmail Address -->
+        <div class="form-group">
+            <label for="respondentEmail">
+                Gmail Address <span class="optional">(Optional)</span>
+            </label>
+            <input
+                type="email"
+                id="respondentEmail"
+                name="respondentEmail"
+                placeholder="example@gmail.com"
+                autocomplete="email"
+                pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                title="Please enter a valid Gmail address ending in @gmail.com"
+            >
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+            <label for="respondentGender">Gender</label>
+            <select id="respondentGender" name="respondentGender">
+                <option value="">Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Self-describe">Self-describe</option>
+            </select>
+        </div>
+
+        <!-- Age Range -->
+        <div class="form-group">
+            <label for="respondentAge">Age Range</label>
+            <select id="respondentAge" name="respondentAge">
+                <option value="">Select age range</option>
+                <option value="Under 20">Under 20</option>
+                <option value="20–29">20–29 years</option>
+                <option value="30–39">30–39 years</option>
+                <option value="40–49">40–49 years</option>
+                <option value="50–59">50–59 years</option>
+                <option value="60 and above">60 years and above</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+        </div>
+
+        <!-- Organization / Company -->
+        <div class="form-group full-width">
+            <label for="organizationName">
+                Organization / Company Name
+            </label>
+            <input
+                type="text"
+                id="organizationName"
+                name="organizationName"
+                placeholder="Enter your organization or company name"
+                autocomplete="organization"
+            >
+        </div>
+
+    </div>
+
+    <p class="privacy-note">
+        <strong>Privacy notice:</strong> Please provide only the
+        information you are comfortable sharing. Personal details
+        should be handled confidentially and used only for the
+        stated research purpose.
+    </p>
+</section>
+
+<div class="fieldgrid">
+<div class="field full"><span class="label">1. Your role</span><div class="choices"><label class="choice"><input type="radio" name="role" value="Owner/Director"><span>Owner / Director</span></label><label class="choice"><input type="radio" name="role" value="Senior Manager"><span>Senior Manager</span></label><label class="choice"><input type="radio" name="role" value="Research Manager"><span>Research Manager</span></label><label class="choice"><input type="radio" name="role" value="Operations/Project Manager"><span>Operations / Project Manager</span></label><label class="choice"><input type="radio" name="role" value="Other eligible staff"><span>Other eligible staff</span></label></div></div>
+<div class="field full"><span class="label">2. Years working in this firm</span><div class="choices"><label class="choice"><input type="radio" name="tenure" value="Less than 1 year"><span>Less than 1 year</span></label><label class="choice"><input type="radio" name="tenure" value="1–3 years"><span>1–3 years</span></label><label class="choice"><input type="radio" name="tenure" value="4–6 years"><span>4–6 years</span></label><label class="choice"><input type="radio" name="tenure" value="More than 6 years"><span>More than 6 years</span></label></div></div>
+<div class="field full"><span class="label">3. Firm age</span><div class="choices"><label class="choice"><input type="radio" name="firmAge" value="Less than 3 years"><span>Less than 3 years</span></label><label class="choice"><input type="radio" name="firmAge" value="3–5 years"><span>3–5 years</span></label><label class="choice"><input type="radio" name="firmAge" value="6–10 years"><span>6–10 years</span></label><label class="choice"><input type="radio" name="firmAge" value="More than 10 years"><span>More than 10 years</span></label></div></div>
+<div class="field full"><span class="label">4. Approximate number of employees</span><div class="choices"><label class="choice"><input type="radio" name="employees" value="1–5"><span>1–5</span></label><label class="choice"><input type="radio" name="employees" value="6–10"><span>6–10</span></label><label class="choice"><input type="radio" name="employees" value="11–20"><span>11–20</span></label><label class="choice"><input type="radio" name="employees" value="More than 20"><span>More than 20</span></label><label class="choice"><input type="radio" name="employees" value="Prefer not to say"><span>Prefer not to say</span></label></div></div>
+<div class="field full"><span class="label">5. Main services (tick all that apply)</span><div class="choices">
+<label class="choice"><input type="checkbox" name="services" value="Survey research"><span>Survey research</span></label><label class="choice"><input type="checkbox" name="services" value="Market/industry analysis"><span>Market / industry analysis</span></label><label class="choice"><input type="checkbox" name="services" value="Customer/brand research"><span>Customer / brand research</span></label><label class="choice"><input type="checkbox" name="services" value="Data analytics"><span>Data analytics</span></label><label class="choice"><input type="checkbox" name="services" value="Fieldwork"><span>Fieldwork</span></label><label class="choice"><input type="checkbox" name="services" value="Research consultancy"><span>Research consultancy</span></label><label class="choice"><input type="checkbox" name="services" value="Other"><span>Other</span></label></div></div>
+</div></section>
+<section class="card"><div class="sectionhead"><div class="num">B</div><div><h2>Section B: Strategic Management Practices</h2><p>Indicate your level of agreement with each statement based on your experience in the firm.</p></div></div><div class="note"><strong>Rating scale</strong><br>1 = Strongly Disagree &nbsp;·&nbsp; 2 = Disagree &nbsp;·&nbsp; 3 = Neither Agree nor Disagree &nbsp;·&nbsp; 4 = Agree &nbsp;·&nbsp; 5 = Strongly Agree<br><span style="font-size:11px">You may leave a statement unanswered if you do not wish to answer it.</span></div><div id="likertGroups"></div></section>
+<section class="card"><div class="sectionhead"><div class="num">C</div><div><h2>Section C: Open-ended Questions</h2><p>Optional questions. Please avoid confidential company information and personal identifiers.</p></div></div>
+<div class="question-open"><label for="challenge">1. What is the main strategic challenge facing your firm?</label><textarea id="challenge" name="challenge" placeholder="Share your thoughts..."></textarea></div>
+<div class="question-open"><label for="useful">2. Which strategic practice has been most useful to your firm, and why?</label><textarea id="useful" name="useful" placeholder="Describe the practice and why it is useful..."></textarea></div>
+<div class="question-open"><label for="improve">3. What change would most improve your firm's performance?</label><textarea id="improve" name="improve" placeholder="Suggest a change..."></textarea></div>
+<div class="actions"><button type="button" class="btn plain" id="reset">Clear answers</button><div style="display:flex;gap:9px;flex-wrap:wrap"><button type="button" class="btn secondary" id="preview">Review answers</button><button type="submit" class="btn primary">Submit questionnaire ↗</button></div></div>
+<p class="fineprint">Thank you for your time and participation. This prototype saves submissions to the current browser only. Connect a secure shared destination before distributing the survey to multiple respondents.</p></section>
+</form>
+
+<!-- RESEARCHER LOGIN -->
+<section class="card researcher-login" id="researcherLogin">
+    <div class="sectionhead">
+        <div class="num">🔐</div>
+        <div>
+            <h2>Researcher Login</h2>
+            <p>
+                Authorized access only. Enter the researcher password
+                to view responses and export the research data.
+            </p>
+        </div>
+    </div>
+
+    <form id="researcherLoginForm">
+        <div class="field">
+            <label for="researcherPassword">Researcher Password</label>
+
+            <div class="password-row">
+                <input
+                    type="password"
+                    id="researcherPassword"
+                    placeholder="Enter your password"
+                    autocomplete="current-password"
+                    required
+                >
+
+                <button
+                    type="button"
+                    class="btn secondary"
+                    id="toggleResearcherPassword"
+                >Show</button>
+            </div>
+        </div>
+
+        <p
+            id="researcherLoginMessage"
+            class="login-message"
+            role="alert"
+            aria-live="polite"
+        ></p>
+
+        <button type="submit" class="btn primary login-button">
+            Unlock Researcher Tools →
+        </button>
+    </form>
+
+    <p class="fineprint">
+        Restricted to the researcher or authorized research personnel.
+    </p>
+</section>
+
+<!-- RESEARCHER TOOLS: HIDDEN UNTIL LOGIN SUCCEEDS -->
+<details class="card admin" id="admin" hidden>
+    <summary>Researcher tools · View responses and export to spreadsheet</summary>
+
+    <div class="admincontent">
+        <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+            <div>
+                <strong style="font-size:14px">Saved responses</strong>
+                <div class="hint">Local browser storage</div>
+            </div>
+
+            <div style="display:flex;gap:7px;flex-wrap:wrap">
+                <button type="button" class="btn secondary" id="export">
+                    Export CSV ↓
+                </button>
+
+                <button type="button" class="btn plain" id="delete">
+                    Delete data
+                </button>
+
+                <button type="button" class="btn plain" id="researcherLogout">
+                    Lock tools
+                </button>
+            </div>
+        </div>
+
+        <div class="tablewrap" id="table">
+            <div class="empty">No responses saved yet.</div>
+        </div>
+    </div>
+</details>
+
+</main>
+<aside class="side"><div class="sidecard"><h3>Questionnaire progress</h3><div class="progressmeta"><span id="progressLabel">0 of 3 sections answered</span><strong id="pct">0%</strong></div><div class="track"><div class="fill" id="fill"></div></div><div class="hint">Progress updates as you complete the form. All Section B ratings are optional.</div></div>
+<div class="sidecard"><h3>How to respond</h3><ul class="steps"><li><span class="stepno">1</span><span>Read the consent information and choose Yes to participate.</span></li><li><span class="stepno">2</span><span>Complete your respondent and firm profile if you wish.</span></li><li><span class="stepno">3</span><span>Rate each strategic management and performance statement.</span></li><li><span class="stepno">4</span><span>Share optional comments and submit your answers.</span></li></ul></div>
+<div class="sidecard" style="background:#fff9e9;border-color:#ffefc8"><h3>Research ethics</h3><div style="font-size:11px;color:#806729;line-height:1.7">Participation is voluntary. Avoid sharing confidential firm information. Only collect and retain data in accordance with your institution's research ethics requirements.</div></div></aside></div>
+<footer class="footer">Research Pulse · Strategic Management Practices and Organizational Performance<br>A study of selected market research firms in Accra</footer></div>
+<script>
+const groups=[
+{name:"Environmental scanning",items:[
+"Our firm regularly monitors changes in client needs and expectations.",
+"Our firm reviews competitors' services and market positioning.",
+"Our firm considers relevant economic, regulatory and technological changes.",
+"Our firm assesses its internal strengths and capability gaps.",
+"Information gathered from the business environment is used in management decisions."]},
+{name:"Strategy formulation",items:[
+"Our firm has clear strategic objectives.",
+"Our firm identifies the client segments and service areas it intends to prioritise.",
+"Management considers available resources when setting strategic priorities.",
+"Relevant employees or managers contribute to strategic planning.",
+"Our strategic priorities are reviewed when important market conditions change."]},
+{name:"Strategy implementation",items:[
+"Strategic priorities are communicated clearly to employees.",
+"Responsibilities for implementing strategic plans are clearly assigned.",
+"Budgets and staff resources are aligned with strategic priorities.",
+"Employees receive training or support needed to implement the firm's plans.",
+"Management follows up to ensure agreed strategic actions are completed."]},
+{name:"Monitoring and evaluation",items:[
+"Our firm uses defined indicators to monitor progress toward objectives.",
+"Management reviews project performance against time and budget expectations.",
+"Client feedback is collected and used to improve services.",
+"Management reviews performance information at planned intervals.",
+"Corrective action is taken when performance falls short of targets."]},
+{name:"Organizational performance",items:[
+"Overall, our firm's financial performance has improved over the past 12 months.",
+"Our firm manages operating costs effectively.",
+"Projects are generally delivered within agreed timeframes.",
+"Our firm maintains high standards of research quality.",
+"Clients are generally satisfied with the services delivered.",
+"Our firm receives repeat business or referrals from existing clients.",
+"Our firm is able to retain skilled employees."]}
+];
+const scaleLabels=["1 · Strongly<br>disagree","2 · Disagree","3 · Neither agree<br>nor disagree","4 · Agree","5 · Strongly<br>agree"];
+const wrap=document.getElementById('likertGroups');
+let globalQ=0;
+groups.forEach((group,gi)=>{
+ const heading=document.createElement('div');heading.className='group-title';
+ const h=document.createElement('h3');h.textContent=group.name;
+ const bar=document.createElement('div');bar.className='bar';
+ const count=document.createElement('span');count.className='count';count.textContent=`${group.items.length} statements`;
+ heading.append(h,bar,count);wrap.appendChild(heading);
+ group.items.forEach((text)=>{
+  globalQ++;const box=document.createElement('div');box.className='likert';
+  const question=document.createElement('div');question.className='likert-text';
+  const qnum=document.createElement('span');qnum.className='qnum';qnum.textContent=globalQ;
+  question.append(qnum,document.createTextNode(text));box.appendChild(question);
+  const scale=document.createElement('div');scale.className='scale';
+  scaleLabels.forEach((label,i)=>{const lab=document.createElement('label');const input=document.createElement('input');input.type='radio';input.name=`q${globalQ}`;input.value=String(i+1);input.setAttribute('aria-label',`${i+1} ${['Strongly Disagree','Disagree','Neither Agree nor Disagree','Agree','Strongly Agree'][i]}`);input.addEventListener('change',progress);const span=document.createElement('span');span.innerHTML=label;lab.append(input,span);scale.appendChild(lab)});
+  box.appendChild(scale);wrap.appendChild(box);
+ });
+});
+const form=document.getElementById('survey'),key='strategicManagementAccraSurveyV1';
+function progress(){
+ const consent=!!form.querySelector('input[name="consent"]:checked');
+ const profile=['role','tenure','firmAge','employees','services'].some(n=>form.querySelectorAll(`[name="${n}"]:checked`).length>0);
+ const ratings=!!form.querySelector('input[name^="q"]:checked');
+ const done=[consent,profile,ratings].filter(Boolean).length,p=Math.round(done/3*100);
+ document.getElementById('progressLabel').textContent=`${done} of 3 sections answered`;document.getElementById('pct').textContent=p+'%';document.getElementById('fill').style.width=p+'%';
+}
+form.addEventListener('change',progress);
+function read(){try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{return[]}}
+function collect(){
+ const fd=new FormData(form),out={submittedAt:new Date().toISOString()};
+ for(const [k,v] of fd.entries()){if(k==='services'){out.services??=[];out.services.push(v)}else out[k]=v}
+ groups.forEach((g,gi)=>g.items.forEach((q,qi)=>{const n=groups.slice(0,gi).reduce((s,x)=>s+x.items.length,0)+qi+1;out['Q'+n]=form.querySelector(`input[name="q${n}"]:checked`)?.value||''}));
+ return out;
+}
+const fields=[['consent','Consent'],['role','Role'],['tenure','Years working in firm'],['firmAge','Firm age'],['employees','Number of employees'],['services','Main services'],...Array.from({length:27},(_,i)=>['Q'+(i+1),'Q'+(i+1)]),['challenge','Main strategic challenge'],['useful','Most useful strategic practice'],['improve','Suggested improvement']];
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(){
+ const data=read(),target=document.getElementById('table');if(!data.length){target.innerHTML='<div class="empty">No responses saved yet.</div>';return}
+ const headers=['Submitted',...fields.map(x=>x[1])];let html='<table><thead><tr>'+headers.map(x=>`<th>${esc(x)}</th>`).join('')+'</tr></thead><tbody>';
+ data.forEach(r=>{const cells=[new Date(r.submittedAt).toLocaleString(),...fields.map(([k])=>Array.isArray(r[k])?r[k].join('; '):r[k]||'')];html+='<tr>'+cells.map(c=>`<td>${esc(c)}</td>`).join('')+'</tr>'});
+ target.innerHTML=html+'</tbody></table>';
+}
+form.addEventListener('submit',e=>{
+ e.preventDefault();const consent=form.querySelector('input[name="consent"]:checked');
+ if(!consent){alert('Please select Yes or No for consent.');return}
+ if(consent.value==='No'){alert('Thank you for considering the study. Because you have not consented, no response will be saved.');return}
+ const data=read();data.push(collect());try{localStorage.setItem(key,JSON.stringify(data))}catch{alert('Unable to save in this browser.');return}
+ const s=document.getElementById('success');s.style.display='block';s.scrollIntoView({behavior:'smooth',block:'center'});render();form.reset();progress();
+});
+document.getElementById('preview').addEventListener('click',()=>{
+ const r=collect();const summary=[`Consent: ${r.consent||'Not selected'}`,`Role: ${r.role||'Not answered'}`,`Years at firm: ${r.tenure||'Not answered'}`,`Firm age: ${r.firmAge||'Not answered'}`,`Employees: ${r.employees||'Not answered'}`,`Services: ${(r.services||[]).join(', ')||'Not answered'}`, ...groups.flatMap((g,gi)=>g.items.map((q,qi)=>{const n=groups.slice(0,gi).reduce((s,x)=>s+x.items.length,0)+qi+1;return `Q${n}: ${r['Q'+n]||'Not answered'} — ${q}`})),`Challenge: ${r.challenge||'Not answered'}`,`Useful practice: ${r.useful||'Not answered'}`,`Suggested improvement: ${r.improve||'Not answered'}`].join('\n');
+ alert('Review your answers (unanswered questions are permitted):\n\n'+summary);
+});
+document.getElementById('reset').addEventListener('click',()=>{if(confirm('Clear all answers in this questionnaire?')){form.reset();progress()}});
+document.getElementById('export').addEventListener('click',()=>{
+ const data=read();if(!data.length){alert('No saved responses to export.');return}
+ const headers=['Submitted at',...fields.map(x=>x[1])];const cell=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+ const rows=data.map(r=>[r.submittedAt,...fields.map(([k])=>Array.isArray(r[k])?r[k].join('; '):r[k]||'')]);
+ const blob=new Blob(['\ufeff'+[headers,...rows].map(row=>row.map(cell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8;'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='strategic-management-research-responses.csv';a.click();URL.revokeObjectURL(url);
+});
+document.getElementById('delete').addEventListener('click',()=>{if(confirm('Delete every response stored in this browser? This cannot be undone.')){localStorage.removeItem(key);render()}});
+document.getElementById('admin').addEventListener('toggle',render);
+progress();render();
+
+/* RESEARCHER LOGIN CONTROL
+   Basic client-side demonstration only.
+   This does not provide strong security for public websites.
+*/
+
+const RESEARCHER_PASSWORD = "andrewspinto123";
+
+const researcherLogin = document.getElementById("researcherLogin");
+const researcherForm = document.getElementById("researcherLoginForm");
+const researcherPassword = document.getElementById("researcherPassword");
+const researcherMessage = document.getElementById("researcherLoginMessage");
+const researcherTools = document.getElementById("admin");
+const toggleResearcherPassword = document.getElementById(
+    "toggleResearcherPassword"
+);
+const researcherLogout = document.getElementById("researcherLogout");
+
+/* Always hide researcher tools when the page first loads. */
+researcherTools.hidden = true;
+researcherTools.open = false;
+
+/* Show or hide the password while typing. */
+toggleResearcherPassword.addEventListener("click", function () {
+    const currentlyHidden = researcherPassword.type === "password";
+
+    researcherPassword.type = currentlyHidden ? "text" : "password";
+    toggleResearcherPassword.textContent =
+        currentlyHidden ? "Hide" : "Show";
+});
+
+/* Unlock tools only when the password matches. */
+researcherForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    if (researcherPassword.value === RESEARCHER_PASSWORD) {
+        researcherMessage.textContent = "";
+        researcherPassword.value = "";
+
+        researcherLogin.hidden = true;
+        researcherTools.hidden = false;
+        researcherTools.open = true;
+
+        render();
+
+        researcherTools.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    } else {
+        researcherTools.hidden = true;
+        researcherTools.open = false;
+
+        researcherMessage.textContent =
+            "Incorrect password. Please try again.";
+
+        researcherPassword.value = "";
+        researcherPassword.focus();
+    }
+});
+
+/* Lock tools again when the researcher logs out. */
+researcherLogout.addEventListener("click", function () {
+    researcherTools.open = false;
+    researcherTools.hidden = true;
+    researcherLogin.hidden = false;
+
+    researcherPassword.value = "";
+    researcherMessage.textContent = "";
+
+    researcherLogin.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+});
+
+
+const respondentProfile = {
+    fullName: document.getElementById("respondentName").value.trim(),
+    gmail: document.getElementById("respondentEmail").value.trim(),
+    gender: document.getElementById("respondentGender").value,
+    ageRange: document.getElementById("respondentAge").value,
+    organization: document.getElementById("organizationName").value.trim()
+};
+
+</script></body></html>
